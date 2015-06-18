@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBC601201B3250A40085F3EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC6011F1B3250A40085F3EB /* main.m */; };
+		DBC601231B3250A40085F3EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC601221B3250A40085F3EB /* AppDelegate.m */; };
+		DBC601261B3250A40085F3EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC601251B3250A40085F3EB /* ViewController.m */; };
+		DBC601291B3250A40085F3EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC601271B3250A40085F3EB /* Main.storyboard */; };
+		DBC6012B1B3250A40085F3EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC6012A1B3250A40085F3EB /* Images.xcassets */; };
+		DBC6012E1B3250A40085F3EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBC6012C1B3250A40085F3EB /* LaunchScreen.xib */; };
+		DBC6013A1B3250A40085F3EB /* MyScrollerLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC601391B3250A40085F3EB /* MyScrollerLabelTests.m */; };
+		DBC601451B3250D20085F3EB /* PScrollerLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC601441B3250D20085F3EB /* PScrollerLabelView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC601341B3250A40085F3EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC601121B3250A40085F3EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC601191B3250A40085F3EB;
+			remoteInfo = MyScrollerLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBC6011A1B3250A40085F3EB /* MyScrollerLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyScrollerLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC6011E1B3250A40085F3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC6011F1B3250A40085F3EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBC601211B3250A40085F3EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBC601221B3250A40085F3EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBC601241B3250A40085F3EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBC601251B3250A40085F3EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBC601281B3250A40085F3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBC6012A1B3250A40085F3EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBC6012D1B3250A40085F3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DBC601331B3250A40085F3EB /* MyScrollerLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyScrollerLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC601381B3250A40085F3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC601391B3250A40085F3EB /* MyScrollerLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollerLabelTests.m; sourceTree = "<group>"; };
+		DBC601431B3250D20085F3EB /* PScrollerLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PScrollerLabelView.h; sourceTree = "<group>"; };
+		DBC601441B3250D20085F3EB /* PScrollerLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PScrollerLabelView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC601171B3250A40085F3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC601301B3250A40085F3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC601111B3250A40085F3EB = {
+			isa = PBXGroup;
+			children = (
+				DBC6011C1B3250A40085F3EB /* MyScrollerLabel */,
+				DBC601361B3250A40085F3EB /* MyScrollerLabelTests */,
+				DBC6011B1B3250A40085F3EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC6011B1B3250A40085F3EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC6011A1B3250A40085F3EB /* MyScrollerLabel.app */,
+				DBC601331B3250A40085F3EB /* MyScrollerLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC6011C1B3250A40085F3EB /* MyScrollerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				DBC601431B3250D20085F3EB /* PScrollerLabelView.h */,
+				DBC601441B3250D20085F3EB /* PScrollerLabelView.m */,
+				DBC601211B3250A40085F3EB /* AppDelegate.h */,
+				DBC601221B3250A40085F3EB /* AppDelegate.m */,
+				DBC601241B3250A40085F3EB /* ViewController.h */,
+				DBC601251B3250A40085F3EB /* ViewController.m */,
+				DBC601271B3250A40085F3EB /* Main.storyboard */,
+				DBC6012A1B3250A40085F3EB /* Images.xcassets */,
+				DBC6012C1B3250A40085F3EB /* LaunchScreen.xib */,
+				DBC6011D1B3250A40085F3EB /* Supporting Files */,
+			);
+			path = MyScrollerLabel;
+			sourceTree = "<group>";
+		};
+		DBC6011D1B3250A40085F3EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC6011E1B3250A40085F3EB /* Info.plist */,
+				DBC6011F1B3250A40085F3EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBC601361B3250A40085F3EB /* MyScrollerLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC601391B3250A40085F3EB /* MyScrollerLabelTests.m */,
+				DBC601371B3250A40085F3EB /* Supporting Files */,
+			);
+			path = MyScrollerLabelTests;
+			sourceTree = "<group>";
+		};
+		DBC601371B3250A40085F3EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC601381B3250A40085F3EB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC601191B3250A40085F3EB /* MyScrollerLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC6013D1B3250A40085F3EB /* Build configuration list for PBXNativeTarget "MyScrollerLabel" */;
+			buildPhases = (
+				DBC601161B3250A40085F3EB /* Sources */,
+				DBC601171B3250A40085F3EB /* Frameworks */,
+				DBC601181B3250A40085F3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyScrollerLabel;
+			productName = MyScrollerLabel;
+			productReference = DBC6011A1B3250A40085F3EB /* MyScrollerLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC601321B3250A40085F3EB /* MyScrollerLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC601401B3250A40085F3EB /* Build configuration list for PBXNativeTarget "MyScrollerLabelTests" */;
+			buildPhases = (
+				DBC6012F1B3250A40085F3EB /* Sources */,
+				DBC601301B3250A40085F3EB /* Frameworks */,
+				DBC601311B3250A40085F3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC601351B3250A40085F3EB /* PBXTargetDependency */,
+			);
+			name = MyScrollerLabelTests;
+			productName = MyScrollerLabelTests;
+			productReference = DBC601331B3250A40085F3EB /* MyScrollerLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC601121B3250A40085F3EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = P;
+				TargetAttributes = {
+					DBC601191B3250A40085F3EB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DBC601321B3250A40085F3EB = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DBC601191B3250A40085F3EB;
+					};
+				};
+			};
+			buildConfigurationList = DBC601151B3250A40085F3EB /* Build configuration list for PBXProject "MyScrollerLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC601111B3250A40085F3EB;
+			productRefGroup = DBC6011B1B3250A40085F3EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC601191B3250A40085F3EB /* MyScrollerLabel */,
+				DBC601321B3250A40085F3EB /* MyScrollerLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC601181B3250A40085F3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC601291B3250A40085F3EB /* Main.storyboard in Resources */,
+				DBC6012E1B3250A40085F3EB /* LaunchScreen.xib in Resources */,
+				DBC6012B1B3250A40085F3EB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC601311B3250A40085F3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC601161B3250A40085F3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC601451B3250D20085F3EB /* PScrollerLabelView.m in Sources */,
+				DBC601261B3250A40085F3EB /* ViewController.m in Sources */,
+				DBC601231B3250A40085F3EB /* AppDelegate.m in Sources */,
+				DBC601201B3250A40085F3EB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC6012F1B3250A40085F3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC6013A1B3250A40085F3EB /* MyScrollerLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC601351B3250A40085F3EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC601191B3250A40085F3EB /* MyScrollerLabel */;
+			targetProxy = DBC601341B3250A40085F3EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBC601271B3250A40085F3EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC601281B3250A40085F3EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBC6012C1B3250A40085F3EB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC6012D1B3250A40085F3EB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBC6013B1B3250A40085F3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBC6013C1B3250A40085F3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC6013E1B3250A40085F3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyScrollerLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBC6013F1B3250A40085F3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyScrollerLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBC601411B3250A40085F3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyScrollerLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyScrollerLabel.app/MyScrollerLabel";
+			};
+			name = Debug;
+		};
+		DBC601421B3250A40085F3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyScrollerLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyScrollerLabel.app/MyScrollerLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC601151B3250A40085F3EB /* Build configuration list for PBXProject "MyScrollerLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC6013B1B3250A40085F3EB /* Debug */,
+				DBC6013C1B3250A40085F3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC6013D1B3250A40085F3EB /* Build configuration list for PBXNativeTarget "MyScrollerLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC6013E1B3250A40085F3EB /* Debug */,
+				DBC6013F1B3250A40085F3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBC601401B3250A40085F3EB /* Build configuration list for PBXNativeTarget "MyScrollerLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC601411B3250A40085F3EB /* Debug */,
+				DBC601421B3250A40085F3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC601121B3250A40085F3EB /* Project object */;
+}
